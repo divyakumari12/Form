@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(175, 86, 202);
+}
+
+.form-div {
+    width: 600px;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid;
+}
+
+textarea {
+    width: 100%;
+    height: 75px;
+    padding: 12px 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: double;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+.btn {
+    width: 65;
+    height: 30;
+    padding-top: -1;
+    font-size: 14;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    font-family: sans-serif;
+    margin: 1.5;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #126de4;
+    color: rgb(255, 255, 255);
+}
