@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <title>FORMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-div">
+        <form action="index.html">
+            <table>
+
+                <tr>
+                    <td><label for="name" style="font-weight: bold">First Name: </label></td>
+                    <td><input type="text"></input>
+                    </td>
+                    <td><label for="name" style="font-weight: bold">Last Name:  </label></td>
+                    <td> <input type="text"></input>
+                    </td>
+
+
+                </tr>
+
+                <tr>
+                    <td><label for="email" style="font-weight: bold"><br>Email: </label></td>
+                    <td><br><input type="email" name="email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="birth" style="font-weight: bold"><br> Date of Birth: </label></td>
+                    <td><br><input type="date"></input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="hobby" style="font-weight: bold"><br>Hobby: </label></td>
+                    <td><br><input type="text"></input>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label style="font-weight: bold"><br>Gender: </label></td>
+                    <td>
+                        <br><input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+                        <br>
+                        <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label>
+                        <br>
+                        <input type="radio" id="other" name="gender" value="other"><label for="other">Other</label>
+                        <br>
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td>
+                        <label style="font-weight: bold"><br> Choice: </label></td>
+                    <td><br><select>
+<option>--Select--</option>
+<option >Architecture</option>
+<option>Arts</option>
+<option>Engineering</option>
+<option>Medical</option>
+<option>Psychology</option>
+<option>Social Science</option>
+</select></td>
+                </tr>
+
+                <tr>
+                    <td><label style="font-weight: bold"><br>About Yourself: </label></td>
+                    <td><br><textarea></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label style="font-weight: bold">Create Password: </label></td>
+
+                    <td><br><input type=" password "></input><br><br>
+                    </td>
+                </tr>
+
+            </table>
+            <button class="btn " onclick="alert('Successfully Registered') ">Sign up</button>
+        </form>
+    </div>
+</body>
+
+</html>
